@@ -1,0 +1,6 @@
+/* BASIC */
+@import 'basic/base.css';
+
+/* COMPONENTS */
+@import 'components/header.css';
+@import 'components/footer.css';
