@@ -1,21 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/css/styles.css">
     <title>Meme Generator</title>
 </head>
-<body onload="onInit()" >
-    <header class="header">Meme Generator</header>
-    <section>
+
+<body onload="onInit()">
+    <div class="main-container">
+
+        <header class="main-header">
+            <div><img class="logo" src="/style/img/LOGO.png" alt="grafity of memegen, color orange, backroung dark-gray" /></div>
+            <nav class="nav-bar">
+                <a onclick="onGallery()" class="gallery" >Gallery</a>
+                <a onclick="onAbout()" class="about" >About</a>
+            </nav>
+
+        </header>
+        <section>
+            <div class="meme-editor">
+
+            </div>
+
+        </section>
+    </div>
 
 
-    </section>
     <footer>Created by Nir Levi @</footer>
     <script src="js/services/util.service.js"></script>
     <script src="js/services/storage.service.js"></script>
     <script src="js/services/meme.service.js"></script>
     <script src="js/meme.controller.js"></script>
 </body>
+
 </html>
