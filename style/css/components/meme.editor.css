@@ -1,0 +1,9 @@
+
+.meme-editor-container {
+    display: flex; 
+    width: 85%;
+    height: 600px;
+    border: 1px solid #030303;
+    padding: 10px;
+    margin: 0 auto; 
+}

@@ -7,20 +7,41 @@
     <link rel="stylesheet" href="style/css/styles.css">
     <title>Meme Generator</title>
 </head>
-<body onload="onInit()" >
-    <header class="header">Meme Generator</header>
-    <section>
 
+<body onload="onInit()">
+    <div class="main-container">
 
-        </section>
+        <header class="main-header">
+            <div><img class="logo" src="/style/img/LOGO.png"
+                    alt="grafity of memegen, color orange, backroung dark-gray" /></div>
+            <nav class="nav-bar">
+                <a onclick="onGallery()" class="gallery-btn">Gallery</a>
+                <!-- <a onclick="onAbout()" class="about page" >About</a> -->
+            </nav>
+
+        </header>
+
+        <main class="gallery">
+        </main>
+
+        <section class="meme-editor-container">
+            <div class="meme-container">
+                <canvas width="500" height="500"></canvas>
+            </div>
+
+            <div class="meme-editor">
+
+            </div>
     </div>
 
 
-    <footer>Created by Nir Levi @</footer>
+    <footer>Created by Nir Levi ™ </footer>
     <script src="js/services/util.service.js"></script>
     <script src="js/services/storage.service.js"></script>
     <script src="js/services/meme.service.js"></script>
     <script src="js/meme.controller.js"></script>
+    <script src="js/gallery.controller.js"></script>
+
 </body>
 
 </html>
